@@ -1,1 +1,1 @@
-envAppend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
+envPrepend(PYTHONPATH, ${PRODUCT_DIR}/lib/python)
